@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+  <parameter name="userLoginId" value="abarnaselvaganapathy@gmail.com"/>
+  <parameter name="password" value="Abharnas#12"/>
+
+  <test thread-count="5" name="ChromeTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testNG.basics.Parameters"/>
+    </classes>
+  </test>
+
+  <test thread-count="5" name="FFtest">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testNG.basics.Parameters"/>
+    </classes>
+  </test>
+
+</suite>
