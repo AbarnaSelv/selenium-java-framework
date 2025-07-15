@@ -1,0 +1,25 @@
+# Eclipse and IntelliJ settings
+.settings/
+.project
+.classpath
+*.iml
+.idea/
+
+# Compiled class files
+*.class
+
+# Maven target folder
+target/
+
+# Test reports
+test-output/
+
+# Eclipse metadata
+.metadata/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
