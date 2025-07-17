@@ -19,24 +19,23 @@ Appreciate the clear guidance that helped build the foundation of this framework
 
 ## 📁 Project Structure  
 
+
 Selenium Java Framework/
 ├── Selenium/
 │ ├── data/ # Excel test data
 │ ├── src/
 │ │ ├── main/
 │ │ │ └── java/
-│ │ │ ├── com.base # Base setup class
+│ │ │ ├── com.base # Base setup (Browser launch, config)
 │ │ │ ├── com.pages # Page classes (POM + PageFactory)
 │ │ │ └── com.utilities # Utility classes (Excel reader, etc.)
 │ │ └── test/
 │ │ └── java/
 │ │ └── com.tests # TestNG test cases
-│ ├── testng.xml # TestNG suite configuration
-│ └── pom.xml # Maven project file
-├── test-data/
-├── .gitignore
-└── README.md
-
+│ ├── test-output/ # TestNG output
+│ ├── pom.xml # Maven project file
+│ ├── testng.xml # TestNG suite config
+│ └── .gitignore
 
 ---
 
