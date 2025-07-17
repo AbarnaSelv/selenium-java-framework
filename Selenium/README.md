@@ -37,9 +37,6 @@ Selenium Java Framework/
 ├── .gitignore
 └── README.md
 
-yaml
-Copy
-Edit
 
 ---
 
