@@ -11,7 +11,7 @@ public class Frames {
 			ChromeDriver driver = new ChromeDriver();
 			
 			// An HTML inside one HTML is called as frames<iframe..<body>..</iframe> eg: ad inside a web	
-			driver.get("https://letcode.in/frame");
+			 driver.get("https://letcode.in/frame");
 			// when you write in normal method like inspecting and findelementbyid("").click() or whichever func() ..if it gives an error
 			// so, search for "//iframe" in elements to check how many frames are there
 			
@@ -19,7 +19,10 @@ public class Frames {
 	    	 * What is an example for overloading
 	    	 * - Frames switching to frame
 		     * 
-		     *  */
+		     *  
+		     *  
+		     *  
+		     * */
 			// 1stly switching to frame
 			
 			driver.switchTo().frame(1); // find the index carefully where that frame is located by //iframe and use the respected index
@@ -42,8 +45,12 @@ public class Frames {
 			
 			
 			
-		// -- Exception
+		    // -- Exception
+			
+			
+			
 			// -- No such frame exception
+			
 			
 			
 			

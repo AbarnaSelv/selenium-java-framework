@@ -13,7 +13,7 @@ public class LoginPage extends POMbase {
 
 	public LoginPage (RemoteWebDriver driver) {
 		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		//PageFactory.initElements(driver, this);
 		
 	}
 	
@@ -79,6 +79,7 @@ public class LoginPage extends POMbase {
 		enterUsername(username);
 		enterPassword(password);
 		clickLogin();
+		PageFactory.initElements(driver, this);
 		
 		
 	}

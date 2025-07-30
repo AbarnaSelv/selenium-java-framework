@@ -43,7 +43,10 @@ public class DropDown {
 	     // to print or get all the options 
 		 
 		 List<WebElement> allHeros = Heros.getOptions();
-		 allHeros.forEach(i->System.out.println(i.getText()));
+		// allHeros.forEach(i->System.out.println(i.getText()));
+		 for(WebElement herosopts : allHeros) {
+			 System.out.println(herosopts.getText());
+		 }
 		 
 		 // to print all the selected options
 		 List<WebElement> allSelHeros = Heros.getAllSelectedOptions();

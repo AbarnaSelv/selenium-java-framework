@@ -16,7 +16,7 @@ public class Screenshots {
 		// Selenium wont take a screenshorts covering that URL . tabs and taskbar , It only takes the DOM
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver-win32/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		
+																																																																																	
 		driver.get("https://letcode.in/button");
 		
 		// Page

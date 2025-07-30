@@ -13,9 +13,9 @@ public class DataProvider extends DataUtils { //  to run a multiple user ids usi
 	// another using "dataProviderClass"
 	@Test(dataProvider = "login", dataProviderClass= DataUtils.class) // just calling the name
 	public void login(String email, String password)  {
-//This tells TestNG:
-//"Hey, call the getData() method, get the values, 
-//and inject them automatically into login(email, password)."
+ //This tells TestNG:
+ //"Hey, call the getData() method, get the values, 
+ //and inject them automatically into login(email, password)."
 	System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver-win32/chromedriver.exe");
 	ChromeDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();

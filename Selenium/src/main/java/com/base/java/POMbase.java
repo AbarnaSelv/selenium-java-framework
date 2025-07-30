@@ -13,7 +13,7 @@ import com.utilities.java.ReadExcel;
 public class POMbase {
 	String url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 	protected RemoteWebDriver driver = null;
-public String fileName = "";
+    public String fileName = "";
 	
 	@DataProvider(name="data")
 	public String[][] dataProvider() {
@@ -33,7 +33,7 @@ public String fileName = "";
 		
 	}
 	
-	@AfterMethod
+	@AfterMethod 
 	public void closeApp() {
 		driver.quit();
 	}

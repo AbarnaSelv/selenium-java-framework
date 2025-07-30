@@ -12,7 +12,7 @@ public class ExceptionHandling {
 		
 	}
 
-	public static void main(String[] args) throws NoSuchElementException, InterruptedException {
+	public static void main(String[] args) throws NoSuchElementException, InterruptedException {// throws NoSuchElementException, InterruptedException {
 		System.out.println("Enter any number");
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();

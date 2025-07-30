@@ -25,6 +25,8 @@ public class FindingElements {
 		// to find the specific element
 		WebElement lastele = labels.get(labels.size()-1);
 		System.out.println(lastele.getText());
+		
+		//System.out.println(labels.get(labels.size()-1).getText());
 		int size = labels.size();
 		if (	size == 6) {
 			System.out.println("Test case passed");
