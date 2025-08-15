@@ -35,7 +35,7 @@ A big thanks to Koushik for making automation learning simple and impactful 🙌
 - `groups.xml` – TestNG group configurations  
 - `paramtr.xml` – TestNG parameterized test definitions  
 - `testngPar.xml` – TestNG parallel test execution  
-- `README.md` – Project documentation  
+ 
 
 ---
 
