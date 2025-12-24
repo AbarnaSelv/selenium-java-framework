@@ -73,8 +73,6 @@ Thanks to Koushik for explaining **automation concepts** in a clear and practica
 5. To run tests:
 - Run **testng.xml** for TestNG execution  
 - Run a **Cucumber Runner class** for BDD execution
-6. View reports in:
-- **test-output/**  
-- **target/**
+
 
 
