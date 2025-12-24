@@ -1,13 +1,16 @@
-# 🚀 Selenium Java Automation Framework
-A structured automation testing framework built using **Java**, incorporating **TestNG**, **Page Object Model (POM)**, **PageFactory**, and **Cucumber (BDD)**.  
-Designed for readability, modularity, and real-world scalability in UI test automation.
+# Selenium Java Automation Framework
+
+A structured **UI Automation Testing Framework** built using **Java**, **Selenium WebDriver**, **TestNG**, **Cucumber (BDD)**, **Page Object Model (POM)**, and **PageFactory**.
+
+This framework follows **real-world automation practices** with a strong focus on **clean architecture**, **reusability**, and **scalability**.  
+Along with automation concepts, the project also includes **Java fundamentals** and **OOP concepts** to strengthen core programming knowledge.
 
 ---
 
-## 🙏 Credits
+## Credits
 
-Inspired and guided by tutorials from **LetCode by Koushik**.  
-A big thanks to Koushik for making automation learning simple and impactful 🙌
+This project is inspired and guided by tutorials from **LetCode by Koushik**.  
+Thanks to Koushik for explaining **automation concepts** in a clear and practical way.
 
 ---
 
@@ -39,30 +42,39 @@ A big thanks to Koushik for making automation learning simple and impactful 🙌
 
 ---
 
-## 🧪 Tech Stack
+## Tech Stack
 
-- Java  
-- Selenium WebDriver  
-- TestNG  
-- Maven  
-- Page Object Model (POM)  
-- PageFactory  
-- Cucumber (BDD)  
-
----
-
-## ✅ Features Implemented
-
-- Base class setup for browser initialization and teardown  
-- Page Object Model design with PageFactory  
-- Excel-based data-driven framework  
-- TestNG integration for test execution and grouping  
-- Full Cucumber BDD implementation  
-- Organized, modular, and scalable folder structure  
+- **Java**
+- **Selenium WebDriver**
+- **TestNG**
+- **Maven**
+- **Cucumber (BDD)**
+- **POM & PageFactory**
 
 ---
 
-## 📬 Connect with Me
+## Features Implemented
 
-> Passionate about automation and building real-world testing frameworks 🚀  
-Feel free to connect, share feedback, or collaborate on automation ideas!
+- **Base class** for browser setup and teardown  
+- **Page Object Model** with **PageFactory**  
+- **Excel data-driven testing**  
+- **TestNG** execution and grouping  
+- **Cucumber BDD** implementation  
+- **Clean and scalable framework**
+
+---
+
+## How to Run the Project
+
+1. **Clone** the repository.
+2. **Open** the project in **IntelliJ IDEA** or **Eclipse**.
+3. Make sure **Java** and **Maven** are installed.
+4. Run the command: mvn clean install
+5. To run tests:
+- Run **testng.xml** for TestNG execution  
+- Run a **Cucumber Runner class** for BDD execution
+6. View reports in:
+- **test-output/**  
+- **target/**
+
+
