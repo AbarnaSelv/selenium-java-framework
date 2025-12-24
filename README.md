@@ -14,7 +14,7 @@ Thanks to Koushik for explaining **automation concepts** in a clear and practica
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 - `src/main/java/com.basics` – Core Java basics and learning scripts  
 - `src/main/java/com.collections` – Java collections practice and examples  
